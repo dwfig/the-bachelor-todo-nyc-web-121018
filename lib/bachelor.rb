@@ -12,8 +12,8 @@ def get_first_name_of_season_winner(data, season)
 ##      end
       end
 end
-name.split(" ")
-name(1)
+name_array = name.split(" ")
+name = name_array[0]
 end
 
 def get_contestant_name(data, occupation)
